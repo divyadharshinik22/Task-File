@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .image-container {
+            max-width: 100%;
+            display: inline-block;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header >
+        <h1>WELCOME TO OUR WEBBITE</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <section id="home">
+                <h2>Home</h2>
+                <p>
+                    We are delighted to have you here! Our website is dedicated to providing you with valuable resources, insights, and inspiration to help you achieve your goals. Whether you're looking for the latest industry news, helpful tutorials, or just some good reads, we have something for everyone.
+                </p>
+                <p>
+                    Our team of passionate writers and experts work tirelessly to bring you the best content. We believe in the power of knowledge and aim to share it with our readers in an engaging and easy-to-understand way. Explore our various sections, and don't hesitate to reach out to us if you have any questions or suggestions.
+                </p>
+                <p>
+                    Thank you for visiting our website! We hope you find what you're looking for and enjoy your stay.
+                </p>
+
+                <h1>Image Example</h1>
+    <div class="image-container">
+        <img src="path/to/your/image.jpg" alt="Description of Image">
+    </div>
+            </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                At My Website, we are passionate about delivering quality content that informs, inspires, and engages our audience. Our journey began with a simple idea: to create a platform where people can find valuable information and connect with like-minded individuals.
+            </p>
+            <p>
+                Our team comprises experts from various fields who bring their unique perspectives and knowledge to the table. We believe in the power of collaboration and continuously strive to learn, grow, and innovate to serve our readers better.
+            </p>
+            <p>
+                Our mission is to provide accessible and reliable information that empowers our audience to make informed decisions and achieve their goals. We cover a wide range of topics, including technology, health, lifestyle, and more, ensuring there's something for everyone.
+            </p>
+            <p>
+                Thank you for being a part of our community. We are committed to delivering the best content and look forward to sharing this journey with you. If you have any questions, suggestions, or feedback, please don't hesitate to get in touch with us.
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out to us.
+            </p>
+            <p>
+                You can contact us through any of the following methods:
+            </p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:info@mysimplewebsite.com">info@mysimplewebsite.com</a></li>
+                <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+                <li><strong>Address:</strong> 1234 Elm Street, Suite 567, Hometown, HT 12345</li>
+            </ul>
+            <p>
+                Alternatively, you can fill out the contact form below, and we'll get back to you as soon as possible.
+            </p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
