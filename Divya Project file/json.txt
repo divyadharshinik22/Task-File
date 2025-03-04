@@ -1,0 +1,33 @@
+{
+	"employees": {
+		"employee": [
+			{
+				"firstname": "John",
+				"lastname": "styles",
+				"title": "Engineer",
+				"division": "Materials",
+				"building": "327",
+				"room": "10",
+				"_id": "d123"
+			},
+			{
+				"firstname": "Amit",
+				"lastname": "Roland",
+				"title": "Account",
+				"division": "Accts",
+				"building": "267",
+				"room": "15",
+				"_id": "d124"
+			},
+			{
+				"firstname": "Liya",
+				"lastname": "Raj",
+				"title": "QA",
+				"division": "HR",
+				"building": "338",
+				"room": "20",
+				"_id": "d125"
+			}
+		]
+	}
+}

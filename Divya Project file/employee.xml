@@ -1,0 +1,26 @@
+<employees>
+    <employee id='d123'>
+        <firstname>John</firstname>
+        <lastname>styles</lastname>
+        <title>Engineer</title>
+        <division>Materials</division>
+        <building>327</building>
+        <room>10</room>
+    </employee>
+    <employee id='d124'>
+        <firstname>Amit</firstname>
+        <lastname>Roland</lastname>
+        <title>Account</title>
+        <division>Accts</division>
+        <building>267</building>
+        <room>15</room>
+    </employee>
+    <employee id='d125'>
+        <firstname>Liya</firstname>
+        <lastname>Raj</lastname>
+        <title>QA</title>
+        <division>HR</division>
+        <building>338</building>
+        <room>20</room>
+    </employee>
+</employees>
